@@ -1,0 +1,15 @@
+Product Overview: The TP-Link router is designed for Small Office/Home Office (SOHO) networks and users needing higher networking performance. It features powerful antennas for continuous Wi-Fi signals and widespread coverage, built-in Ethernet ports for high-speed wired connections, and easy setup via an intuitive web interface and Tether app.
+
+Appearance: Top panel has LEDs: Power (On: started successfully; Flashing: starting or upgrading; Off: power off). 2.4GHz Wireless (On: enabled; Off: disabled). 5GHz Wireless (On: enabled; Off: disabled). LAN (On: device connected; Off: no device). Internet (Green On: available; Orange On: connected but no service; Off: unplugged). Back panel: Power On/Off Button, Power Port, WAN Port (for modem or Ethernet), LAN Ports (1-4 for wired devices), WPS/Wi-Fi Button (1s for WPS, 5s to toggle Wi-Fi), Reset Button (hold until LEDs on for factory reset), Antennas (upright for best performance).
+
+Connect the Hardware: Position router away from moisture, heat, interference (Bluetooth, phones, microwaves). Place horizontally, antennas vertically. Steps: Turn off modem, connect modem to WAN port, turn on modem (wait 2min), connect power to router, turn on. Verify LEDs solid. Connect computer: Wired (Ethernet to LAN port), Wireless (SSID and password on label), WPS (tap on device, press button on router within 2min; not for iOS, no WEP).
+
+Log In to Router: Set TCP/IP to auto IP/DNS. Visit http://tplinkwifi.net, create/login password. If no window, check FAQ. If TP-Link ID bound, use it.
+
+Set Up Internet Connection: Quick Setup at http://tplinkwifi.net. Or Tether app: Download, connect to Wi-Fi, add router, follow steps. Manual: Select type (Dynamic IP with MAC clone, Static IP with ISP details, PPPoE with username/password, L2TP/PPTP with secondary). Save, test at Network > Status. Access Point mode: Advanced > Operation Mode > Access Point, connect to existing router. IPv6: Advanced > IPv6, select mode (Pass-Through or Router), save.
+
+TP-Link Cloud Service: Register TP-Link ID at http://tplinkwifi.net > Advanced > TP-Link ID > Sign Up. Bind as Admin. Change email/password in Account Information. Add/remove users in Bound Accounts. Manage via Tether app (download, log in, remote access with internet).
+
+QoS: Enable at Advanced > QoS > Global Settings (disable NAT Boost if needed), set upload/download bandwidth. Prioritize device: Toggle Priority, set timing (e.g., 2 hours).
+
+FAQ - Forgotten Wireless Password: Connect Ethernet, log in, go to Wireless to reset. Forgotten Management Password: Forgot password link or reset router. Can't Log In: Check connection/LEDs, auto IP/DNS, URL, browser settings, reset. No Internet: Check Status IP; set DNS 8.8.8.8, restart modem/router, MAC clone, change LAN IP (e.g., 192.168.2.1), verify type. Can't Find/Connect Wireless: Enable wireless, check driver, WLAN LED, range, SSID not hidden, PIN/security key, channel 1/6/11, update driver.
