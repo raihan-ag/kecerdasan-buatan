@@ -10,25 +10,22 @@ Raihan: (Retrieval dan Generation)
 Raihan: (Testing, Dokumentasi, dan Video Demo)
 
 # Persyaratan Sistem
-Python 3.8+
-Koneksi internet untuk download model HuggingFace pertama kali (opsional untuk LLM eksternal seperti OpenAI)
+- Python 3.8+
+- Koneksi internet untuk download model HuggingFace pertama kali (opsional untuk LLM eksternal seperti OpenAI)
 
 # Instal Dependensi
-Jalankan perintah berikut untuk instal library yang diperlukan:
-textpip install streamlit transformers sentence-transformers torch numpy scipy
+- Jalankan perintah berikut untuk instal library yang diperlukan:
+- textpip install streamlit transformers sentence-transformers torch numpy scipy
 
 # Cara Run
-Pastikan file router_manual.txt (knowledge base dari user manual TP-Link Archer C80) ada di folder yang sama.
-Jalankan dashboard interaktif:textstreamlit run app.py
-Akses di browser: http://localhost:8501
-Masukkan pertanyaan di form, klik "Tanya" untuk lihat jawaban dan context retrieval.
-
-Contoh penggunaan di kode (tanpa dashboard):Pythonfrom app import rag_query  # Import fungsi dari app.py jika perlu
-print(rag_query("Bagaimana cara reset konfigurasi pabrik pada router ini?"))
+- Pastikan file router_manual.txt (knowledge base dari user manual TP-Link Archer C80) ada di folder yang sama.
+- Jalankan dashboard interaktif:textstreamlit run app.py
+- Akses di browser: http://localhost:8501
+- Masukkan pertanyaan di form, klik "Tanya" untuk lihat jawaban dan context retrieval.
 
 # Dependensi
-Streamlit (untuk dashboard UI)
-Transformers (HuggingFace) - Untuk embedding dan generation
-Sentence-Transformers (model all-MiniLM-L6-v2)
-Torch (backend transformer)
-NumPy dan SciPy (untuk vector database sederhana)
+- Streamlit (untuk dashboard UI)
+- Transformers (HuggingFace) - Untuk embedding dan generation
+- Sentence-Transformers (model all-MiniLM-L6-v2)
+- Torch (backend transformer)
+- NumPy dan SciPy (untuk vector database sederhana)
