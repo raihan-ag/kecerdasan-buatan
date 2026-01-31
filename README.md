@@ -4,10 +4,10 @@ Sistem Retrieval-Augmented Generation (RAG) untuk memberikan jawaban akurat berd
 Studi kasus ini dibangun untuk Ujian Akhir Semester (UAS) Mata Kuliah Artificial Intelligence (SI148), dengan fokus pada Smart Manual Support (Produk Elektronik). Sistem memenuhi CPMK061, CPMK081, dan CPMK082, serta CPL06 dan CPL08.
 
 # Pembagian Tugas
-Raihan: (Data Ingestion, Chunking, dan Integrasi Dashboard)
-Raihan: (Embedding dan Vector Database)
-Raihan: (Retrieval dan Generation)
-Raihan: (Testing, Dokumentasi, dan Video Demo)
+- Raihan: (Data Ingestion, Chunking, dan Integrasi Dashboard)
+- Raihan: (Embedding dan Vector Database)
+- Raihan: (Retrieval dan Generation)
+- Raihan: (Testing, Dokumentasi, dan Video Demo)
 
 # Persyaratan Sistem
 - Python 3.8+
